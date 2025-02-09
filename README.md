@@ -49,16 +49,21 @@ A Graph Neural Network (GNN) based system for detecting suspicious addresses in 
 ### 5. Visualization Results
 
 #### 5.1 Transaction Network Structure
-![Network Structure](data/visualizations/network_structure.png)
+[Interactive Network Visualization](data/visualizations/full_network.html)
 
 This network graph shows relationships between transaction addresses:
 - Red nodes: Suspicious addresses
 - Blue nodes: Normal addresses
 - Node size: Based on transaction frequency
 - Edge thickness: Based on transaction amount
+- Interactive features:
+  - Zoom in/out for details
+  - Drag nodes to explore connections
+  - Hover to see transaction details
+  - Click to highlight connected nodes
 
 #### 5.2 Suspicion Score Heatmap
-![Suspicion Distribution](data/visualizations/suspicion_heatmap.png)
+![Suspicion Distribution](data/visualizations/blacklist_distribution.png)
 
 The heatmap shows the spatial distribution of suspicion scores:
 - Red areas: High suspicion clusters
@@ -67,7 +72,7 @@ The heatmap shows the spatial distribution of suspicion scores:
 - Node size reflects transaction activity
 
 #### 5.3 Transaction Pattern Analysis
-![Transaction Patterns](data/visualizations/transaction_patterns.png)
+![Transaction Patterns](data/visualizations/transaction_values.png)
 
 The scatter plot shows transaction behavior features:
 - X-axis: In-degree (received transactions)
