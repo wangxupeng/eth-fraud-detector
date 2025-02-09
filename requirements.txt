@@ -1,0 +1,7 @@
+web3==6.11.1
+pandas==2.1.1
+requests==2.31.0
+torch
+torch-geometric
+torch-scatter
+torch-sparse 
