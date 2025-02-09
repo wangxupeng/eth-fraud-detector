@@ -49,16 +49,21 @@
 ### 5. 可视化结果展示
 
 #### 5.1 交易网络结构
-![交易网络结构](data/visualizations/network_structure.png)
+![交易网络](data/visualizations/full.png)
 
 这个网络图展示了交易地址之间的关系：
 - 红色节点：可疑地址
 - 蓝色节点：正常地址
 - 节点大小：基于交易频率
 - 边的粗细：基于交易金额
+- 交互功能：
+  - 支持放大缩小查看细节
+  - 可拖拽节点探索连接关系
+  - 悬停显示交易详情
+  - 点击高亮相关节点
 
 #### 5.2 可疑度分布热力图
-![可疑度分布](data/visualizations/suspicion_heatmap.png)
+![可疑度分布](data/visualizations/blacklist_distribution.png)
 
 热力图展示了可疑度的空间分布：
 - 红色区域：高可疑度聚集区
@@ -67,7 +72,7 @@
 - 节点大小反映了交易活跃度
 
 #### 5.3 交易模式分析
-![交易模式](data/visualizations/transaction_patterns.png)
+![交易模式](data/visualizations/transaction_values.png)
 
 散点图展示了地址的交易行为特征：
 - X轴：入度（接收交易数）
