@@ -49,7 +49,7 @@ A Graph Neural Network (GNN) based system for detecting suspicious addresses in 
 ### 5. Visualization Results
 
 #### 5.1 Transaction Network Structure
-[Interactive Network Visualization](data/visualizations/full.png)
+![Interactive Network Visualization](data/visualizations/full.png)
 
 This network graph shows relationships between transaction addresses:
 - Red nodes: Suspicious addresses
